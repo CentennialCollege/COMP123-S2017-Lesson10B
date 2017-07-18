@@ -13,9 +13,9 @@ using System.Threading.Tasks;
 
 namespace COMP123_S2017_Lesson10B
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             SuperHero superHero = new SuperHero("SuperHero Dude", 20);
             superHero.AddPower("Spider Climbing", 50);
@@ -32,6 +32,9 @@ namespace COMP123_S2017_Lesson10B
             Console.WriteLine(superVillain.ToString());
             Console.WriteLine();
             Console.WriteLine("Malice: " + superVillain.Malice);
+
+           
         }
     }
 }
+
