@@ -7,7 +7,7 @@ using System.Text;
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the SuperHuman class that extends the Human abstract class
- * Version: 0.7 - Added the DisplaySkills stub method to satisfy the Human super class requirements
+ * Version: 0.8 - Added private _getPowerIndex method 
  */
 
 namespace COMP123_S2017_Lesson10B
@@ -50,6 +50,34 @@ namespace COMP123_S2017_Lesson10B
         private void _initialize()
         {
             this._powers = new List<Power>(); // creates an empty list
+        }
+
+        /// <summary>
+        /// This private method returns the index of the Power Name in the Power List
+        /// If not found it returns -1
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns>Returns the index of the Power in the Power List by name</returns>
+        private int _getPowerIndex(string name)
+        {
+            int index = 0;
+
+            foreach (Power power in this.Powers)
+            {
+                if(name.Equals(power.Name))
+                {
+                    break;
+                }
+
+                index++;
+
+                if(this.Powers.Count == index)
+                {
+                    index = -1; // this means that we did not find the Power in the list
+                }
+            }
+
+            return index;
         }
 
         // PUBLIC METHODS

@@ -6,7 +6,7 @@ using System.Text;
 /*
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
- * Description: Demo for Lesson 9
+ * Description: This is the Power class.
  * Version: 0.3 - Overloaded the > and < operators for the Power class
  */
 

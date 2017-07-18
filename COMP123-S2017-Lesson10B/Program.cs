@@ -33,6 +33,7 @@ namespace COMP123_S2017_Lesson10B
             Console.WriteLine();
             Console.WriteLine("Malice: " + superVillain.Malice);
 
+
            
         }
     }
