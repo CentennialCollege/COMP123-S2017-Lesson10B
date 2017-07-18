@@ -7,7 +7,7 @@ using System.Text;
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the SuperHuman class that extends the Human abstract class
- * Version: 0.8 - Added private _getPowerIndex method 
+ * Version: 0.9 - Added the GetPower method
  */
 
 namespace COMP123_S2017_Lesson10B
@@ -130,6 +130,23 @@ namespace COMP123_S2017_Lesson10B
         public override void DisplaySkills()
         {
             Console.WriteLine("Not Implemented!");
+        }
+
+        /// <summary>
+        /// This method returns a Power object that matches the Power name.
+        /// If the power is not found it returns an anonymous Power object with
+        /// a name of "Power Not Found"
+        /// </summary>
+        /// <param name="name"></param>
+        public Power GetPower(string name)
+        {
+            int index = this._getPowerIndex(name);
+
+            if (index != -1)
+            {
+                return this.Powers[index];
+            }
+            return new Power("Power Not Found", 0); // means that the power wasn't found.
         }
     }
 }
