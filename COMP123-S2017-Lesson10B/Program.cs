@@ -33,7 +33,17 @@ namespace COMP123_S2017_Lesson10B
             Console.WriteLine();
             Console.WriteLine("Malice: " + superVillain.Malice);
 
-            if(superVillain.GetPower("Shadow Casting") > 
+            AntiHero batman = new AntiHero("Batman", 20, 20);
+            batman.AddPower("Super Intelligence", 50);
+            Console.WriteLine(batman.ToString());
+            Console.WriteLine();
+            Console.WriteLine("Karma: " + batman.Karma);
+            Console.WriteLine("Malice: " + batman.Malice);
+            
+            
+
+
+            if (superVillain.GetPower("Shadow Casting") > 
                 superVillain.GetPower("Combat Senses"))
             {
                 Console.WriteLine("Shadow Casting is more powerful than Combat Senses");
@@ -48,6 +58,9 @@ namespace COMP123_S2017_Lesson10B
             {
                 Console.WriteLine("Combat Senses is weaker than Mind Control");
             }
+
+
+
 
         }
     }

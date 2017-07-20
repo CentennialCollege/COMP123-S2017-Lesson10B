@@ -22,17 +22,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson10B.SuperHero">
-    <Position X="9.25" Y="3" Width="1.75" />
+    <Position X="3.25" Y="5.75" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAgAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SuperHero.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="COMP123_S2017_Lesson10B.SuperVillain">
-    <Position X="6.25" Y="5.25" Width="2.25" />
+    <Position X="9.5" Y="5.75" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <HashCode>AAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
       <FileName>SuperVillain.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -45,9 +45,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson10B.AntiHero">
-    <Position X="3.5" Y="5.25" Width="2.25" />
+    <Position X="6.25" Y="5.75" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAEAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <HashCode>AAAgEAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
       <FileName>AntiHero.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -55,14 +55,14 @@
   <Interface Name="COMP123_S2017_Lesson10B.IHasKarma">
     <Position X="9.25" Y="1.25" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasKarma.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="COMP123_S2017_Lesson10B.IHasMalice">
-    <Position X="3.5" Y="3.75" Width="2" />
+    <Position X="9.25" Y="3.25" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasMalice.cs</FileName>
     </TypeIdentifier>
   </Interface>

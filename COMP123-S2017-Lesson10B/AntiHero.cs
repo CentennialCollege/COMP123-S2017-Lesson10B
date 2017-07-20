@@ -68,7 +68,10 @@ namespace COMP123_S2017_Lesson10B
         // PRIVATE METHODS
 
         // PUBLIC METHODS
+        public void Trains()
+        {
 
+        }
 
 
 
